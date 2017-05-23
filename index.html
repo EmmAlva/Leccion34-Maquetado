@@ -12,19 +12,23 @@
 	<!--ICONS-->
 	<link rel="icon" type="image/png" href="https://thisisneat.com.au/wp-content/themes/neat/shared/img/favicon-32x32.png" sizes="32x32">
 	<!--BOOTSTRAP  CSS-->
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	<!--FONTS-->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700" rel="stylesheet">
 </head>
 <body>
-	<div id="content">
-		<section id="home" class="section--home">
+	<div id="alert-part0" class="alert alert-danger alert-dismissable dissapear hidden-xs" rol="alert">
+        <button type="button" class="icon close close_alert" data-dismiss="alert" aria-label="Close" >&times;</button>
+        <span>This week only, use code <strong>BONDBACK15</strong> to get 15% off your end of lease cleaning. Expires <strong>21/05/2017</strong>.</span>
+    </div>
+	<div id="content" class="hello">
+		<section id="home" class="section0 section--home">
 			<span class="icon icon--hero-park"></span>
 			<span class="icon icon--hero-bench"></span>
 			<span class="section_bg icon icon--hero-bg"></span>
 			<span class="section_bg icon icon--hero"></span>
 			<div class="section_content">
-				<div class="container ">
+				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="intro intro-title">
@@ -36,23 +40,210 @@
 					</div>
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<a class="btn btn-info" href="">Get your quote</a>
+							<a class="btn-primary btn--md-lg" href="">Get your quote</a>
 						</div>
 					</div>						
 				</div>					
 			</div>				
 		</section>
 
+		<section id="features" class="section0 section-features">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-10 col-lg-push-1">
+                    <div class="text-left guarantee">
+                        <div class="row">
+                            <div class="parallel-sm parallel-md parallel-lg">
+                                <div class="col-sm-5 col-sm-push-7 col-md-4 col-md-push-8">
+                                    <div class="feature-icon">
+                                        <i class="icon icon--step-bond-guarantee"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-7 col-sm-pull-5 col-md-8 col-md-pull-4">
+                                    <h2 class="feature-heading">Bond Back Guarantee</h2>
+                                    <p class="feature-caption">
+                                        Moving homes in Sydney is stressful enough. With our end of lease cleaning service, getting your bond back has never been easier. Rest assured knowing that your real estate agent or landlord will accept your cleaning. If not,
+                                        <br
+                                            class="visible-lg">just notify us within 72 hours and we'll gladly return to reclean any <br class="visible-lg">problem areas - free of charge.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-10 col-lg-push-1">
+                    <div class="step">
+                        <div class="row">
+                            <div class="row__parallel-sm row__parallel-md row__parallel-lg">
+                                <div class="col-sm-5 col-md-4">
+                                    <div class="feature-icon">
+                                        <i class="icon icon--step-quote"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-7 col-md-8">
+                                    <h2 class="feature-heading">Instant Quote</h2>
+                                    <p class="feature-caption">
+                                        Don’t spend hours on the phone comparing prices and say goodbye to annoying sales pitches! Get an instant quote based on your individual <br class="visible-lg"> needs and requirements. Any questions? Don’t be shy!
+                                        Drop a line via <br class="visible-lg">live chat, email, or phone.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-10 col-lg-push-1">
+                    <div class="step">
+                        <div class="row">
+                            <div class="row__parallel-sm row__parallel-md row__parallel-lg">
+                                <div class="col-sm-5 col-sm-push-7 col-md-4 col-md-push-8">
+                                    <div class="feature-icon">
+                                        <i class="icon icon--step-payment"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-7 col-sm-pull-5 col-md-8 col-md-pull-4">
+                                    <h2 class="feature-heading">Safe &amp; Simple Payment</h2>
+                                    <p class="feature-caption">
+                                        Once you're happy with the quote, you can make a safe and simple online payment to confirm your booking. We'll immediately send you a confirmation and invoice via email. And of course, your payment details are safe and secure with 128-bit SSL encryption
+                                        too!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<section></section>
-		<section></section>
-		<section></section>
+    <section id="promise" class="promise container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="color-title-promise text-center promise-tittle">Our Promise</h2>
+                <h5 class="promise-tittle-sub text-center ">What does it take to leave every customer with a smile? </h5>
+                <p class="promise-tittle-sub text-center">Here's how we're going keep Sydney happy!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-promise">
+                <div class="img-content text-center">
+                    <i class="icono-promise icon--feature-support"></i>
+                </div>
+                <h2 class="text-success promise-success text-center">Customer Service</h2>
+                <p class="promise-gray text-center ">Our customers always come first! If you have a question, we make ourselves available via live chat, email, or phone.</p>
+            </div>
+            <div class="col-md-4 col-promise">
+                <div class="img-content">
+                    <i class="icono-promise icon--feature-professional"></i>
+                </div>
+                <h2 class="text-success promise-success text-center">Trained &amp; Certified</h2>
+                <p class="promise-gray text-center ">A high quality service requires professionally trained and certified staff. We take pride in our cleaners so you can too!</p>
+            </div>
+            <div class="col-md-4 col-promise">
+                <div class="img-content">
+                    <i class="icono-promise icon--feature-insurance"></i>
+                </div>
+                <h2 class="text-success promise-success text-center">Full Liability Insurance</h2>
+                <p class="promise-gray text-center">Things go wrong sometimes but rest assured, we got it covered. We put love into the details and on top of that, have full liability insurance!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-promise">
+                <div class="img-content">
+                    <i class="icono-promise icon--feature-flexibility"></i>
+                </div>
+                <h2 class="text-success promise-success text-center">Flexibility</h2>
+                <p class="promise-gray text-center ">Whether it means picking up your keys, cleaning on holidays, or making a deadline, our flexible service is here to assist.</p>
+            </div>
+            <div class="col-md-4 col-promise">
+                <div class="img-content">
+                    <i class="icono-promise icon--feature-transparency"></i>
+                </div>
+                <h2 class="text-success promise-success text-center">Transparency</h2>
+                <p class="promise-gray text-center">Sometimes a simple form just doesn’t cut it. If your home needs a little more love, we'll let you know so you're always on top of what's happening.</p>
+            </div>
+            <div class="col-md-4 col-promise">
+                <div class="img-content">
+                    <i class="icono-promise icon--feature-eco"></i>
+                </div>
+                <h2 class="text-success promise-success text-center ">Eco-friendly</h2>
+                <p class="promise-gray text-center">You care. We care. Our range of cleaning services includes environmentally friendly and green products.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="community" class="Our-Comunity bg-primary" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3 text-center">
+            <h2 class="promise-tittle ">Our Community</h2>
+          </div>
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <p class="">We believe our work speaks for itself, but our
+              <br class="">
+              customers vouch for us too. Here's what they have to say.</p>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-3 text-center">
+            <div class="imagen-circle imagen-1">
+            </div>
+            <h4 class="">Jessica Costanzo</h4>
+            <h5 class="">Paddington</h5>
+          </div>
+          <div class="col-lg-7">
+            <p class="">This is Neat did a great job during our end of lease move, our apartment was spotless. The service was easy to book and they were very accommodating with our strict deadlines and apartment regulations. The staff were friendly and the service was great. I would highly recommend them for any end of lease moves and would definitely use them again!</p>
+            <div class="">
+              <i class="estrella icon icon-star icon--rating-5" ></i>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-3 col-lg-offset-2 text-center">
+            <div class="imagen-circle imagen-2">
+            </div>
+            <h4 class="">Nic Mesker</h4>
+            <h5 class="">Woolloomooloo</h5>
+          </div>
+          <div class="col-lg-7">
+            <p class="">Upon seeing the finished result, I was truly blown away by the meticulous nature in which they had transformed the apartment from the mess of moving out, to the exact 'ready to rent again' level of clean that I needed. I will definitely be using their services again, and am proud to recommend their company to anyone who wants the highest level of professional cleaning at a fantastic rate</p>
+            <div class="">
+              <i class="estrella icon icon-star icon--rating-5" ></i>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-lg-3 text-center">
+            <div class="imagen-circle imagen-3">
+            </div>
+            <h4 class="">Renee Cuda</h4>
+            <h5 class="">Chippendale</h5>
+          </div>
+          <div class="col-lg-7">
+            <p class="">This is Neat did an excellent job for our 3 bedroom apartment in Chippendale. The clean was very thorough. We had a few issues getting into the car park in our building and I'd like to thank the team for being very patient about this inconvenience. I would definitely use them again next time I move rental properties</p>
+            <div class="">
+              <i class="estrella icon icon-star icon--rating-5"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+	<section></section>
+
+
+
+	
 	</div>
+
+	
 
 
 
 	<!--JQUERY-->
-	<script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!--BOOTSTRAP JS-->
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
