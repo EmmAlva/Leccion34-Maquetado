@@ -210,6 +210,15 @@ img{
     width: 100%;
     border-collapse: collapse;
 }
+.text-position{
+	text-align: center;
+}
+@media (min-width:768px){
+	.text-position{
+	text-align: left;
+	}
+} 
+
 .feature-icon {
     width: 275px;
     height: 275px;
@@ -248,4 +257,24 @@ img{
 	line-height: 36px;
     font-weight: 600;
     font-size: 25px;
+}
+
+/*SECTION3-VALUES*/
+.value {
+    padding: 75px 0 0;
+    background-color: #FFF;
+}
+.text-center{
+	margin: 0 0 30px;
+}
+.value-color-heading{
+	color: #3498DB;
+	    font-size: 64px;
+    font-size: 4.57143rem;
+    line-height: 72px;
+    line-height: 5.14286rem;
+    display: block;
+    margin: 0 0 10px;
+    font-weight: 600;
+    letter-spacing: 0;
 }
